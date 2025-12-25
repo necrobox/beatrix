@@ -164,5 +164,3 @@ But sometimes the developers can go a little bit further. When they have all the
 it's possible to leave only the glyphs their website needs. Just cut off the rest ones.
 
 That's exactly how the tool works.
-
-[![Sponsored by FunBox](logo-bottom.svg)](https://funbox.ru)
