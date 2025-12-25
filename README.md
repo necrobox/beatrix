@@ -30,7 +30,7 @@ pip install fonttools zopfli brotli
 Then you can install Beatrix:
 
 ```sh
-npm install --save @funboxteam/beatrix
+npm install --save @necrobox/beatrix
 ```
 
 Now you're ready to optimize your fonts.

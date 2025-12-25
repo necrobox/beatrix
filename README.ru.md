@@ -28,7 +28,7 @@ pip install fonttools zopfli brotli
 А затем саму Беатрикс:
 
 ```sh
-npm install --save @funboxteam/beatrix
+npm install --save @necrobox/beatrix
 ```
 
 Готово.
