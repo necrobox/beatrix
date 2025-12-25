@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.0.0 (25.12.2025)
+
+Ensured Node.js 20, 22 & 24 support.
+
+Moved package from @funboxteam to @necrobox scope.
+
+
 ## 3.0.1 (20.06.2023)
 
 Fixed the way Beatrix works with file paths, just to be sure that it won't blow up the directories outside of its domain.

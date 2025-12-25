@@ -1,12 +1,12 @@
 {
-  "name": "@funboxteam/beatrix",
-  "version": "3.0.1",
+  "name": "@necrobox/beatrix",
+  "version": "4.0.0",
   "description": "A tool for converting and optimizing font files",
   "author": "Igor Adamenko <mail@igoradamenko.com> (https://igoradamenko.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/funbox/beatrix"
+    "url": "https://github.com/necrobox/beatrix"
   },
   "main": "./lib/index.js",
   "bin": {
@@ -20,17 +20,16 @@
   "scripts": {
     "lint": "eslint -c .eslintrc.js lib",
     "test": "./lib/cli.js --config ./example/config.js --output ./dist ./example",
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi",
     "pretest": "npm run lint"
   },
   "dependencies": {
     "commander": "4.1.1"
   },
   "devDependencies": {
-    "@funboxteam/eslint-config": "7.3.0",
+    "@funboxteam/eslint-config": "7.4.0",
     "eslint": "7.32.0",
-    "husky": "3.0.7",
-    "lint-staged": "9.4.0"
+    "husky": "4.3.8",
+    "lint-staged": "13.2.3"
   },
   "lint-staged": {
     "lib/**/*.js": [

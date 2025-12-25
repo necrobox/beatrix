@@ -4,19 +4,9 @@
 
 <div align="center">
   <b>Beatrix</b> chops off useless fonts parts and converts TTF/OTF files into WOFF & WOFF2
-</div> 
+</div>
 
-## Rationale
-
-Users spend a lot of time downloading web assets: JS, CSS, images, fonts, etc.
-To reduce waiting time, developers compress the assets, gzip them, use optimized formats for images and fonts.
-
-But sometimes the developers can go a little bit further. When they have all the rights for fonts they use,
-it's possible to leave only the glyphs their website needs. Just cut off the rest ones.
-
-That's exactly how the tool works.
-
-## Getting Started
+## Getting started
 
 [По-русски](./README.ru.md)
 
@@ -30,7 +20,7 @@ pip install fonttools zopfli brotli
 Then you can install Beatrix:
 
 ```sh
-npm install --save @funboxteam/beatrix
+npm install --save @necrobox/beatrix
 ```
 
 Now you're ready to optimize your fonts.
@@ -165,4 +155,12 @@ The characters and features described above will be left in the font files, all 
 
 If you want to remove all the characters or features completely just pass an empty array.
 
-[![Sponsored by FunBox](logo-bottom.svg)](https://funbox.ru)
+## Rationale
+
+Users spend a lot of time downloading web assets: JS, CSS, images, fonts, etc.
+To reduce waiting time, developers compress the assets, gzip them, use optimized formats for images and fonts.
+
+But sometimes the developers can go a little bit further. When they have all the rights for fonts they use,
+it's possible to leave only the glyphs their website needs. Just cut off the rest ones.
+
+That's exactly how the tool works.
