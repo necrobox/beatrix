@@ -20,7 +20,6 @@
   "scripts": {
     "lint": "eslint -c .eslintrc.js lib",
     "test": "./lib/cli.js --config ./example/config.js --output ./dist ./example",
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi",
     "pretest": "npm run lint"
   },
   "dependencies": {
