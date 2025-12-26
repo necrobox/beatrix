@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@funboxteam',
+  extends: '@necrobox',
   env: {
     node: true,
   },

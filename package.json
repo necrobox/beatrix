@@ -26,7 +26,7 @@
     "commander": "4.1.1"
   },
   "devDependencies": {
-    "@funboxteam/eslint-config": "7.4.0",
+    "@necrobox/eslint-config": "9.0.0",
     "eslint": "7.32.0",
     "husky": "4.3.8",
     "lint-staged": "13.2.3"
